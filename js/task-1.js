@@ -1,5 +1,6 @@
-function getUserName(users) {
-    
+
+function getUserNames(users) {
+  return users.map(user => user.name);
 }
 
 console.log(
